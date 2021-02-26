@@ -99,7 +99,7 @@ h1{
     font-family: arial_blackregular, helvetica;
     font-size: 3rem;
     margin:0;
-    padding-top:0.8rem;
+    padding-top:2.5rem;
     text-align: center;
     color: black;
     opacity: 0.8;
@@ -194,13 +194,30 @@ h1{
     transform-origin:50% 100% ;
     transform: perspective(330px) rotateX(20deg);
 }
+a{
+  color:gray;
+  text-decoration: none;
+}
+.links {
+  color:black;
+  filter: blur(3px);
+  background-color: rgb(128, 128, 128);
+  text-decoration: underline;
+}
+
+.links:hover{
+  filter: none;
+  background-color: antiquewhite;
+}
 
 
- a {
-    color:black;
-    text-decoration: none;
-  }
-
+ .HL{
+  color:black;
+  text-decoration: underline;
+  filter: blur(3px);
+  background-color: rgb(128, 128, 128);
+  display: inline-block;
+ }
 
 @media screen and (max-width:480px){
   .topbar{
@@ -215,6 +232,7 @@ h1{
     opacity: 1;
     transform: none;
     padding-left: 4rem;
+    padding-top: 1rem;
   }
 
   .father{
