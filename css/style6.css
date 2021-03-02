@@ -180,7 +180,7 @@ h1{
     transform: perspective(330px) rotateX(20deg);
 }
 a{
-  color:black;
+  color:rgb(223, 223, 223);
   text-decoration: none;
 }
 
