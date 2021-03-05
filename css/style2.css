@@ -110,77 +110,77 @@ h1{
 .title{
   font-family: arial_blackregular, helvetica;
   font-size: 1rem;
-    color:black;
-    opacity: 0;
-    text-align: center;
+  color:black;
+  opacity: 0;
+  text-align: center;
 }
 .mainbox{
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 #textbox{
-    font-family: arial_blackregular, helvetica;
-    width:60vw;
-    height: 250px;
-    font-size:1rem;
-    text-indent: 3rem;
-    text-align:left;
-    overflow: auto;
-    filter: blur(4px);
+  font-family: arial_blackregular, helvetica;
+  width:60vw;
+  height: 250px;
+  font-size:1rem;
+  text-indent: 3rem;
+  text-align:left;
+  overflow: auto;
+  filter: blur(4px);
 }
 
 #target{
     
-    font-family: arial_blackregular, helvetica;
-    position:absolute;
-    top:300px;
-    bottom:0;
-    left:0;
-    right:0;
-    font-size:2rem; 
-    text-align:left;
-    text-indent: 3rem;
-    overflow: scroll;
-    filter: blur(4px);
+  font-family: arial_blackregular, helvetica;
+  position:absolute;
+  top:300px;
+  bottom:0;
+  left:0;
+  right:0;
+  font-size:2rem; 
+  text-align:left;
+  text-indent: 3rem;
+  overflow: scroll;
+  filter: blur(4px);
     
 }
 
 ::-webkit-scrollbar {
-    width: 1px;
-    opacity: 0;
+  width: 1px;
+  opacity: 0;
   }
   
   ::-webkit-scrollbar-track {
-    opacity: 0;
+  opacity: 0;
   }
    
 
   ::-webkit-scrollbar-thumb {
-    opacity: 0;
+  opacity: 0;
   }
   
   ::-webkit-scrollbar-thumb:hover {
-    opacity: 0;
+  opacity: 0;
   }
  
 #target:hover{
-    filter: blur(0px);
+  filter: blur(0px);
 }
 
 #target>div{
-    padding-top:-40px;
+  padding-top:-40px;
 }
 
 
 .perspective{
-    position:absolute;
-    top:0;
-    bottom:0;
-    left:0;
-    right:0;
-    transform-origin:50% 100% ;
-    transform: perspective(330px) rotateX(20deg);
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  transform-origin:50% 100% ;
+  transform: perspective(330px) rotateX(20deg);
 }
 
 a{
